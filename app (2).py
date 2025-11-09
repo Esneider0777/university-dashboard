@@ -10,7 +10,7 @@ st.title("🎓 University Data Dashboard")
 st.markdown("### Autor: Sneider Pérez")
 st.write("Análisis interactivo de retención, satisfacción y matrícula estudiantil.")
 
-df = pd.read_csv('university_student_data (1).csv')
+df = pd.read_csv('university_student_data_(1).csv')
 
 # Filtros laterales
 year_filter = st.sidebar.multiselect("Selecciona el año:", sorted(df['Year'].unique()))
